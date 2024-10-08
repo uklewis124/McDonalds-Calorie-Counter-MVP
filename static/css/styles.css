@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Manjari:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&display=swap');
+
+html > body {
+    padding: 0;
+    margin: 0;
+}
+
+body p {
+    font-family: "Manjari", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body h1 {
+    font-size: 36px;
+}
+
+body h2 {
+    font-size: 20px;
+}
+
+.heading {
+    font-family: "Konkhmer Sleokchher", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.subheading {
+    font-family: "Manjari", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.content {
+    display: flex;
+    margin: 0;
+    margin-left: 148px;
+    margin-right: auto;
+}
+
+.MenuBar {
+    align-items: center;
+    width: 100vw;
+    height: 135px;
+}
+
+.MenuBar img {
+    max-width: 96px;
+    max-height: 72px;
+    margin-left: 137px;
+    padding-top: 31px;
+}
+
+.Dashboard {
+    margin: 0;
+    padding-top: 0px;
+    width: 100%;
+}
+
+.grid-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 250px 250px 250px;
+}
+
+/* Items */
+
+.item {
+    display: block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+}
+
+.item > img {
+    max-width: 207px;
+    max-height: 114px;
+    object-fit: contain;
+}
+
+.item > h2 {
+    font-family: "Konkhmer Sleokchher", sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+.item h4 {
+    font-family: "Manjari", sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+.item > .item-kcal {
+    display: inline-flex;
+    width: fit-content;
+}
+
+.item > .item-kcal > h4 {
+    padding-right: 6.25px;
+}
+
+/* Configs for low - high risk */
+.item .low-risk {
+    color: #127115
+}
+.item .med-risk {
+    color: #BD911E
+}
+.item .high-risk {
+    color: #DA291C
+}

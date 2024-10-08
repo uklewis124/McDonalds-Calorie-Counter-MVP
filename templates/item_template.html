@@ -1,0 +1,11 @@
+{% extends 'index.html' %}
+{% block item_template %}
+    <div class="item">
+        <img src="{{url_for('static', filename='images/BigMac.png')}}">
+        <h2>Big Mac ©</h2>
+        <div class="item-kcal">
+            <h4 class="risk-low">risk level</h4>
+            <h4> | 590 kcal</h4>
+        </div>
+    </div>
+{% endblock %}
